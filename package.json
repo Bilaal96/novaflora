@@ -4,6 +4,7 @@
   "description": "",
   "main": "js/index.js",
   "scripts": {
+    "dev": "sass --watch scss:dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
