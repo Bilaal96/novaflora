@@ -4,10 +4,20 @@
   "description": "",
   "main": "js/index.js",
   "scripts": {
-    "dev": "sass --watch scss:dist/css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.35.0"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
 }

@@ -1,0 +1,20 @@
+@use 'variables';
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+  &:visited {
+    color: cyan;
+  }
+}
+
+.nav-items a {
+  //   display: none;
+}
